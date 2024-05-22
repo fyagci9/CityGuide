@@ -1,6 +1,6 @@
 @cityguide_HostAddress = http://localhost:5008
 
-GET {{cityguide_HostAddress}}/weatherforecast/
+GET {{cityguide_HostAddress}}/Values/
 Accept: application/json
 
 ###
