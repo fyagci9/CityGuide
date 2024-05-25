@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\cityguide",
+    "\\cityguide\\Controllers"
   ],
   "SelectedNode": "\\cityguide.sln",
   "PreviewInSolutionExplorer": false

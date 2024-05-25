@@ -10,9 +10,24 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddMvc();
 
-builder.Services.AddDbContext<DataContext>(options =>options.UseSqlServer(connectionString));
+// CORS'u yapýlandýrýn ve bir politika ekleyin
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin",
+        builder => builder
+            .WithOrigins("http://localhost:4200") // Angular uygulamanýzýn URL'si
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials());
+});
+
+builder.Services.AddDbContext<DataContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+builder.Services.AddScoped<IAppRepository, AppRepository>();
 
 var app = builder.Build();
 
@@ -24,6 +39,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// CORS'u Authorization'dan önce ekleyin
+app.UseCors("AllowSpecificOrigin");
 
 app.UseAuthorization();
 
