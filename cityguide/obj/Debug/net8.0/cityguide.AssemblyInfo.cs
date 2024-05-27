@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cityguide")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ebc9ba583730ae782868f2da9602818f52c7417")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40db1c0e1ba4aa8d0df680eae67cfe26c56d3142")]
 [assembly: System.Reflection.AssemblyProductAttribute("cityguide")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cityguide")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using cityguide.Data;
 using cityguide.Dtos;
+using cityguide.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -22,7 +23,39 @@ namespace cityguide.Controllers
         {
             var cities = _appRepository.GetCities();
             var citiesToReturn = _mapper.Map<List<CityForListDto>>(cities);
-                  return Ok(citiesToReturn);
+            return Ok(citiesToReturn);
+        }
+
+        [HttpPost]
+        [Route("add")]
+        public ActionResult Add([FromBody] City city)
+        {
+            _appRepository.Add(city);
+            _appRepository.SaveAll();
+            return Ok();
+
+
+        }
+
+        [HttpGet]
+        [Route("details")]
+        public ActionResult GetCityById(int id)
+        {
+
+            var city = _appRepository.GetCityById(id);
+            var cityToReturn = _mapper.Map<CityForDetailDto>(city);
+            return Ok(cityToReturn);
+
+        }
+
+        [HttpGet]
+        [Route("photos")]
+
+        public ActionResult GetPhotosByCity(int id)
+        {
+            var photos = _appRepository.GetPhotosByCity(id);
+            return Ok(photos);
+
         }
     }
 }
