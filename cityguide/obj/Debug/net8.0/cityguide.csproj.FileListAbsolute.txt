@@ -71,3 +71,13 @@ C:\Users\firat\Desktop\cityguide\cityguide\bin\Debug\net8.0\runtimes\win\lib\net
 C:\Users\firat\Desktop\cityguide\cityguide\obj\Debug\net8.0\cityguide.sourcelink.json
 C:\Users\firat\Desktop\cityguide\cityguide\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\firat\Desktop\cityguide\cityguide\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\firat\Desktop\cityguide\cityguide\bin\Debug\net8.0\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\firat\Desktop\cityguide\cityguide\bin\Debug\net8.0\Cosmos.CRTCompat.dll
+C:\Users\firat\Desktop\cityguide\cityguide\bin\Debug\net8.0\FluentAssertions.dll
+C:\Users\firat\Desktop\cityguide\cityguide\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\firat\Desktop\cityguide\cityguide\bin\Debug\net8.0\Microsoft.Azure.DocumentDB.Core.dll
+C:\Users\firat\Desktop\cityguide\cityguide\bin\Debug\net8.0\runtimes\win7-x64\native\Cosmos.CRTCompat.dll
+C:\Users\firat\Desktop\cityguide\cityguide\bin\Debug\net8.0\runtimes\win7-x64\native\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\firat\Desktop\cityguide\cityguide\bin\Debug\net8.0\runtimes\win7-x64\native\msvcp140.dll
+C:\Users\firat\Desktop\cityguide\cityguide\bin\Debug\net8.0\runtimes\win7-x64\native\vcruntime140.dll
+C:\Users\firat\Desktop\cityguide\cityguide\bin\Debug\net8.0\runtimes\win7-x64\native\vcruntime140_1.dll

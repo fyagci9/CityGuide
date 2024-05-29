@@ -28,7 +28,7 @@ namespace cityguide.Data
 
         private bool VerifyPasswordHash(string password, byte[] userpasswordHash, byte[] userpasswordSalt)
         {
-            using (var hmac = new System.Security.Cryptography.HMACSHA3_512(userpasswordSalt))
+            using (var hmac = new System.Security.Cryptography.HMACSHA256(userpasswordSalt))
             {
                 var computedHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
                 for(int i=0; i<computedHash.Length; i++)
@@ -56,7 +56,7 @@ namespace cityguide.Data
 
         private void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
         {
-            using (var hmac = new System.Security.Cryptography.HMACSHA3_512())
+            using (var hmac = new System.Security.Cryptography.HMACSHA256())
             {
                 passwordSalt = hmac.Key;
                 passwordHash= hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
