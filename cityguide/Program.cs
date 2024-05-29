@@ -44,6 +44,7 @@ builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
 // Uygulama repository'sini ve servislerini ekleyin
 builder.Services.AddScoped<IAppRepository, AppRepository>();
+builder.Services.AddScoped<IAuthRepository, AuthRepository>();
 
 // Nullable reference types uyarýlarýný bastýrma
 builder.Services.AddControllers(options => options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true);

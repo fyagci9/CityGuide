@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\firat\\Desktop\\cityguide\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\cityguide.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|solutionrelative:cityguide\\cityguide.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|c:\\users\\firat\\desktop\\cityguide\\cityguide\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|solutionrelative:cityguide\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|c:\\users\\firat\\desktop\\cityguide\\cityguide\\data\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|solutionrelative:cityguide\\data\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|c:\\users\\firat\\desktop\\cityguide\\cityguide\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|solutionrelative:cityguide\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|c:\\users\\firat\\desktop\\cityguide\\cityguide\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|solutionrelative:cityguide\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|c:\\users\\firat\\desktop\\cityguide\\cityguide\\dtos\\userforregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|solutionrelative:cityguide\\dtos\\userforregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|c:\\users\\firat\\desktop\\cityguide\\cityguide\\dtos\\userforlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|solutionrelative:cityguide\\dtos\\userforlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|c:\\users\\firat\\desktop\\cityguide\\cityguide\\data\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|solutionrelative:cityguide\\data\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{250AD400-1CC1-4C51-AC1F-D2266DA71F67}|cityguide\\cityguide.csproj|c:\\users\\firat\\desktop\\cityguide\\cityguide\\dtos\\cityfordetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,37 +45,111 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\Program.cs",
+              "RelativeDocumentMoniker": "cityguide\\Program.cs",
+              "ToolTip": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\Program.cs",
+              "RelativeToolTip": "cityguide\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T20:17:44.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\Controllers\\CitiesController.cs",
+              "RelativeDocumentMoniker": "cityguide\\Controllers\\CitiesController.cs",
+              "ToolTip": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\Controllers\\CitiesController.cs",
+              "RelativeToolTip": "cityguide\\Controllers\\CitiesController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T20:16:12.117Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "cityguide\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "cityguide\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAqwDEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T20:15:37.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserForLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\Dtos\\UserForLoginDto.cs",
+              "RelativeDocumentMoniker": "cityguide\\Dtos\\UserForLoginDto.cs",
+              "ToolTip": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\Dtos\\UserForLoginDto.cs",
+              "RelativeToolTip": "cityguide\\Dtos\\UserForLoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T20:03:22.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserForRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\Dtos\\UserForRegisterDto.cs",
+              "RelativeDocumentMoniker": "cityguide\\Dtos\\UserForRegisterDto.cs",
+              "ToolTip": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\Dtos\\UserForRegisterDto.cs",
+              "RelativeToolTip": "cityguide\\Dtos\\UserForRegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T20:02:25.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\Data\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "cityguide\\Data\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\Data\\AuthRepository.cs",
+              "RelativeToolTip": "cityguide\\Data\\AuthRepository.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T18:51:40.042Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\Data\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "cityguide\\Data\\IAuthRepository.cs",
+              "ToolTip": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\Data\\IAuthRepository.cs",
+              "RelativeToolTip": "cityguide\\Data\\IAuthRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T18:43:12.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CityForDetailDto.cs",
               "DocumentMoniker": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\Dtos\\CityForDetailDto.cs",
               "RelativeDocumentMoniker": "cityguide\\Dtos\\CityForDetailDto.cs",
               "ToolTip": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\Dtos\\CityForDetailDto.cs",
               "RelativeToolTip": "cityguide\\Dtos\\CityForDetailDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T19:43:50.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "cityguide.http",
-              "DocumentMoniker": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\cityguide.http",
-              "RelativeDocumentMoniker": "cityguide\\cityguide.http",
-              "ToolTip": "C:\\Users\\firat\\Desktop\\cityguide\\cityguide\\cityguide.http",
-              "RelativeToolTip": "cityguide\\cityguide.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-05-22T20:12:55.373Z",
               "EditorCaption": ""
             }
           ]

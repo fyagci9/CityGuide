@@ -9,7 +9,7 @@ namespace cityguide.Controllers
 {
     [Route("api/Cities")]
     [ApiController]
-    public class CitiesController : ControllerBase
+    public class CitiesController : Controller
     {
         IAppRepository _appRepository;
         IMapper _mapper;
